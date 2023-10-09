@@ -22,8 +22,12 @@ table{
 td,th{
     text-align: center;
     padding: 5px;
-    /* border: 1px solid black; */
 
+}
+.border{
+    border: solid 1px black;
+    margin: 0.5vw;
+    padding: 5 vw;
 }
 .text-center{
     display:block;
@@ -31,9 +35,7 @@ td,th{
 }
 .header{
     background-color:darkgrey;
-    /* border: 1px solid black; */
     padding: 0.75vw 0vw;
-    margin:10px 0px;
 }
 .flex{
     display: flex;
@@ -56,6 +58,7 @@ td,th{
 }
 .row{
     margin: 0% 2%;
+    
 }
 img{
     width:100%;
